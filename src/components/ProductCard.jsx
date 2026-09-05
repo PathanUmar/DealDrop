@@ -39,7 +39,7 @@ function ProductCard({ product }) {
   return (
     <Card className="hover:shadow-lg transition-shadow">
       <CardHeader className="pb-3">
-        <div className="flex gap-4">
+        <div className="res gap-4">
           {product.image_url && (
             <img
               src={product.image_url}
